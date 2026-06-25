@@ -1,3 +1,5 @@
+<img width="1063" height="133" alt="image" src="https://github.com/user-attachments/assets/90325d27-89eb-4f8a-bdb9-d5cdcda992d2" />
+
 # QueueStorm — Production-Grade Ticket Classifier
 
 > **SUST CSE Carnival 2026 — Codex Community Hackathon — Mock Preliminary**
