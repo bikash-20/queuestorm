@@ -235,7 +235,7 @@ Coverage:
 * `tests/integration/test_endpoints.py` — full HTTP round-trip + validation
 
 ---
-## ⚡ Performance & Resource Benchmarks
+##  Performance & Resource Benchmarks
 
 To justify our engineering choices, we simulated high-throughput traffic locally and in production envs:
 
@@ -246,7 +246,7 @@ To justify our engineering choices, we simulated high-throughput traffic locally
 | **Memory Footprint** | **~61.5 MB** | > 2.1 GB | Extremely cheap to scale on Free Tiers |
 | **API Cost per 10k req**| **$0.00** | ~$15.00 | Hermetic, predictable runtime cost |
 
-> 💡 **Why this matters for bKash Track:** In a high-volume fintech pipeline, processing millions of tickets using heavy models creates massive infra bills and latency bottlenecks. Our Strategy Pattern gives bKash the best of both worlds—sub-millisecond rule routing today, plug-and-play LLM nuanced fallback tomorrow.
+>  **Why this matters for bKash Track:** In a high-volume fintech pipeline, processing millions of tickets using heavy models creates massive infra bills and latency bottlenecks. Our Strategy Pattern gives bKash the best of both worlds—sub-millisecond rule routing today, plug-and-play LLM nuanced fallback tomorrow.
 ## Engineering practices demonstrated
 
 | Practice | Where |
@@ -303,7 +303,7 @@ All settings come from environment variables (see `.env.example`).
 | `LLM_API_KEY` | _(unset)_ | Required only when `CLASSIFIER_BACKEND=llm` |
 
 ---
-## 🏆 Hackathon Evaluator Quick-Check
+##  Hackathon Evaluator Quick-Check
 
 For the SUST CSE Carnival 2026 Judges — Here is how our solution maps directly to your selection metrics:
 
