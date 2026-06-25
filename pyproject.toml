@@ -1,0 +1,29 @@
+[project]
+name = "queuestorm"
+version = "1.0.0"
+description = "Production-grade FastAPI service for the SUST CSE Carnival 2026 bKash track hackathon mock preliminary task"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+authors = [
+    { name = "Bikash Talukder" },
+]
+keywords = ["fastapi", "hackathon", "ticket-classifier", "bksash", "sust-cse-carnival"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q --tb=short"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = [".venv", ".pytest_cache", "__pycache__", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]  # line length is handled by formatter
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

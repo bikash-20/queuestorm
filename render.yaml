@@ -1,0 +1,20 @@
+# Render.com deployment spec
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: queuestorm
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: CLASSIFIER_BACKEND
+        value: rule_based
+      - key: ENFORCE_SAFETY_FILTER
+        value: "true"
+      - key: PORT
+        value: "8000"
