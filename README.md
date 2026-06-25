@@ -1,4 +1,5 @@
-<img width="1063" height="133" alt="image" src="https://github.com/user-attachments/assets/90325d27-89eb-4f8a-bdb9-d5cdcda992d2" />
+<img width="1280" height="133" alt="image" src="https://github.com/user-attachments/assets/9f37adcd-d3cc-44cf-a1a2-56cf0f1f55b9" />
+
 
 # QueueStorm — Production-Grade Ticket Classifier
 
